@@ -1,0 +1,99 @@
+.booking-container {
+  width: 100%;
+  max-width: 1024px;
+}
+.booking-container > div {
+  margin-bottom: 2rem;
+}
+/* booking form */
+.booking-form {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.booking-form__input {
+  width: 100%;
+}
+.booking-form__input > * {
+  margin-bottom: 18px;
+}
+.booking-form__input > * > * {
+  display: block;
+}
+.booking-form__input label {
+  margin-bottom: 6px;
+}
+.booking-form__input input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+.booking-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+/* rooms */
+.booking-rooms__rooms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+.booking-rooms__room {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking-rooms__room__name {
+  font-weight: 600;
+}
+.booking-rooms__room__desc {
+  font-size: 18px;
+  font-weight: lighter;
+  color: gray;
+}
+.booking-rooms__room__peoples {
+  font-size: 14px;
+}
+.booking-rooms__room__peoples span {
+  font-weight: bold;
+}
+.booking-rooms__room__price {
+  font-weight: 600;
+}
+.booking-rooms__room > div:last-child {
+  display: flex;
+  gap: 6px;
+}
+.booking-rooms__room > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+.booking-rooms__room > div:last-child > div label {
+  font-size: 14px;
+}
+/* total bill */
+.booking-actions > *:last-child {
+  display: flex;
+  gap: 4rem;
+}
+.booking-actions > *:last-child select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 6px;
+  background-color: #eee;
+  width: 300px;
+}
+.booking-actions > *:last-child button {
+  border: none;
+  padding: 10px 50px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}

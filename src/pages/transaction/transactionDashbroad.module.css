@@ -1,0 +1,42 @@
+.transaction-container {
+  margin: 1rem;
+  width: 100%;
+  max-width: 1024px;
+}
+.transaction-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+th,
+td {
+  border: 1px solid #ccc; /* Đường viền cho các ô */
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #32aecd;
+  color: white;
+}
+tr:nth-child(odd) > td {
+  background-color: #eee;
+}
+.tag {
+  border-radius: 4px;
+  padding: 4px;
+  color: #05800d;
+}
+.tag.booked {
+  background-color: #f69785;
+}
+.tag.checkin {
+  background-color: #39d139;
+}
+.tag.checkout {
+  background-color: #d4d0f2;
+}
